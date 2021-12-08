@@ -1,0 +1,142 @@
+body{
+    background-color:#A6A197;
+
+}
+
+header{
+  background-color:#8C8181;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  
+}
+
+header h1{
+text-align: center;  
+
+}
+
+header .buttons{
+  display: flex;
+  flex-direction: column;  
+}
+
+select{
+  display: flex;
+  position: absolute;
+}
+
+.continer{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-success {
+
+   /* display: flex; 
+  justify-content: center;
+  /* align-items: center; */  
+
+}
+    td {
+        border: 1px solid black;
+        overflow: hidden;
+        /* white-space: nowrap; */
+        text-overflow: ellipsis;
+        text-indent: 2;
+        height: 20px;
+      }
+
+
+    .modal1{
+        background-color: #F2AA52;
+        padding: 10px;
+        position: absolute;
+        top: 0px;
+        left: 150%;
+        height: 80vh;
+        min-width: 300px;
+        text-align: center;
+      }
+
+      .modal1.open {
+        left: 50%;
+        transition: left 1s;
+      }
+
+      .modal1 h3{
+        
+        text-transform: capitalize;
+    }
+   
+    .modal1 > p {
+        text-align: left;
+    }
+    .modal1 small{
+        width: 4px;
+        height: 40px;
+        background-color:#A68568 ;
+
+    }
+
+    button{
+      border: none;
+      border-radius: 10px;
+      color: white;
+    }
+    
+    .read{
+      background-color: blue;
+    }
+    .update{
+      background-color: orange;
+    }
+    .delete{
+      background-color: red;
+    }
+    .add-book{
+      background-color: limegreen;
+    }
+
+    .modal1 button{
+      background-color:rosybrown ;
+    }
+
+    .rtl{
+      direction: rtl;
+    }
+
+    .pagination {
+      display: inline-block;
+      margin-left: 75px;
+      margin-top: 30px;
+    }
+    
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      border: 1px solid #ddd;
+    }
+    
+    .pagination a.active {
+      background-color: #008cba;
+      color: white;
+      border: 1px solid #008cba;
+    }
+    
+    .pagination a:hover:not(.active) {
+      background-color: #ddd;
+    }
+    
+    .disable {
+      pointer-events: 'none';
+      cursor: not-allowed;
+    }
